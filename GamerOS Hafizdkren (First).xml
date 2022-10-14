@@ -1,0 +1,659 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>10/13/2022 09:54:02</Date>
+	<AppInfo>
+		<Version>2.3.8.8945</Version>
+		<Licensed>No</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 10 Home Single Language (21H2) x64 - 10.0.19044.2075 (en-US)</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 10 Core (21H2) x64 - 10.0.19044.1288 (en-US)</Version>
+		<GUID>{02F332A0-6487-42DE-B594-D7BF2B458142}</GUID>
+	</ImageInfo>
+	<RemoveComponents AppRemovalMode="DISM">
+		<c>1527c705-839a-4832-9118-54d4Bd6a0c89 'File Picker'</c>
+		<c>adamclient 'Active Directory Lightweight Directory Services (AD LDS)'</c>
+		<c>assembly.net '.NET assembly cache'</c>
+		<c>c5e2524a-ea46-4f67-841f-6a9465d9d515 'File Explorer'</c>
+		<c>datacenterbridging 'Data Center Bridging (DCB)'</c>
+		<c>E2A4F912-2574-4A75-9BB0-0D023378592B 'App Resolver'</c>
+		<c>easeofaccessthemes 'Ease Of Access Themes'</c>
+		<c>embeddedexperience 'Device Lockdown (Embedded Experience)'</c>
+		<c>enhancedstorage 'Enhanced Storage'</c>
+		<c>enterpriseclientsync 'Work Folders Client'</c>
+		<c>F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE 'Add Folder Suggestions dialog'</c>
+		<c>help 'Windows Help content'</c>
+		<c>helpsupport 'Help file support (CHM)'</c>
+		<c>homegroup</c>
+		<c>hwsupport_fax 'Fax'</c>
+		<c>hwsupport_internetprintingclient 'Internet Printing Client'</c>
+		<c>hwsupport_scanner 'Scanner'</c>
+		<c>hwsupport_wia 'Windows Image Acquisition (WIA)'</c>
+		<c>hypervguest 'Hyper-V Integration Services'</c>
+		<c>ias 'Internet Authentication Service (IAS)'</c>
+		<c>iis 'Internet Information Server (IIS)'</c>
+		<c>internetexplorer32 'Internet Explorer - 32 bit'</c>
+		<c>kerneldebug 'Kernel Debugging'</c>
+		<c>langarabic 'Arabic'</c>
+		<c>langbulgarian 'Bulgarian'</c>
+		<c>langchineses 'Chinese Simplified'</c>
+		<c>langchineset 'Chinese Traditional'</c>
+		<c>langcroatian 'Croatian'</c>
+		<c>langczech 'Czech'</c>
+		<c>langdanish 'Danish'</c>
+		<c>langdutch 'Dutch'</c>
+		<c>langenglishgb 'English (GB)'</c>
+		<c>langestonian 'Estonian'</c>
+		<c>langfinnish 'Finnish'</c>
+		<c>langfrench 'French'</c>
+		<c>langfrenchcanadian 'French (Canadian)'</c>
+		<c>langgerman 'German'</c>
+		<c>langgreek 'Greek'</c>
+		<c>langhebrew 'Hebrew'</c>
+		<c>langhungarian 'Hungarian'</c>
+		<c>langime 'Input Method Editor (IME)'</c>
+		<c>langimejp 'Japanese (IME)'</c>
+		<c>langimeko 'Korean (IME)'</c>
+		<c>langimetc 'Chinese Traditional (IME)'</c>
+		<c>langitalian 'Italian'</c>
+		<c>langjapanese 'Japanese'</c>
+		<c>langkorean 'Korean'</c>
+		<c>langlatvian 'Latvian'</c>
+		<c>langlithuanian 'Lithuanian'</c>
+		<c>langnorwegian 'Norwegian'</c>
+		<c>langpolish 'Polish'</c>
+		<c>langportuguesebr 'Portuguese (Brazilian)'</c>
+		<c>langportuguesept 'Portuguese'</c>
+		<c>langromanian 'Romanian'</c>
+		<c>langrussian 'Russian'</c>
+		<c>langserbian 'Serbian'</c>
+		<c>langslovak 'Slovak'</c>
+		<c>langslovenian 'Slovenian'</c>
+		<c>langspanish 'Spanish'</c>
+		<c>langswedish 'Swedish'</c>
+		<c>langtamil 'Tamil'</c>
+		<c>langthai 'Thai'</c>
+		<c>langturkish 'Turkish'</c>
+		<c>langukrainian 'Ukrainian'</c>
+		<c>lxss 'Windows Subsystem for Linux'</c>
+		<c>manifestbackup 'Manifest Backup (WinSxS\Backup)'</c>
+		<c>mediastreaming 'Media Streaming'</c>
+		<c>Microsoft.549981C3F5F10 'Cortana'</c>
+		<c>Microsoft.AAD.BrokerPlugin 'Work or school account'</c>
+		<c>Microsoft.AccountsControl 'Email and accounts'</c>
+		<c>Microsoft.Advertising.Xaml 'Microsoft Advertising SDK for XAML'</c>
+		<c>Microsoft.AsyncTextService 'AsyncTextService'</c>
+		<c>Microsoft.BingWeather 'MSN Weather'</c>
+		<c>Microsoft.BioEnrollment 'Windows Hello Setup'</c>
+		<c>Microsoft.CredDialogHost 'Credential Dialog'</c>
+		<c>Microsoft.DesktopAppInstaller 'App Installer'</c>
+		<c>Microsoft.ECApp 'Eye Control'</c>
+		<c>Microsoft.GetHelp 'Get Help'</c>
+		<c>Microsoft.Getstarted 'Tips (Get Started)'</c>
+		<c>Microsoft.HEIFImageExtension 'HEIF Image Extensions'</c>
+		<c>Microsoft.LockApp 'Windows Default Lock Screen'</c>
+		<c>Microsoft.Microsoft3DViewer '3D Viewer'</c>
+		<c>Microsoft.MicrosoftEdge 'Microsoft Edge (Legacy)'</c>
+		<c>Microsoft.MicrosoftEdgeDevToolsClient 'Microsoft Edge DevTools Client'</c>
+		<c>Microsoft.MicrosoftOfficeHub 'Office'</c>
+		<c>Microsoft.MicrosoftSolitaireCollection 'Microsoft Solitaire Collection'</c>
+		<c>Microsoft.MicrosoftStickyNotes 'Microsoft Sticky Notes'</c>
+		<c>Microsoft.MixedReality.Portal 'Mixed Reality Portal'</c>
+		<c>Microsoft.MSPaint 'Paint 3D'</c>
+		<c>Microsoft.NET.Native.Framework.1.7 'Microsoft .Net Native Framework Package 1.7'</c>
+		<c>Microsoft.NET.Native.Framework.2.2 'Microsoft .Net Native Framework Package 2.2'</c>
+		<c>Microsoft.NET.Native.Runtime.1.7 'Microsoft .Net Native Runtime Package 1.7'</c>
+		<c>Microsoft.NET.Native.Runtime.2.2 'Microsoft .Net Native Runtime Package 2.2'</c>
+		<c>Microsoft.Office.OneNote 'OneNote'</c>
+		<c>Microsoft.People 'Microsoft People'</c>
+		<c>Microsoft.ScreenSketch 'Snip &amp; Sketch'</c>
+		<c>Microsoft.Services.Store.Engagement 'Microsoft Engagement Framework'</c>
+		<c>Microsoft.SkypeApp 'Skype'</c>
+		<c>Microsoft.StorePurchaseApp 'Store Experience Host'</c>
+		<c>Microsoft.VCLibs.140.00.UWPDesktop 'Microsoft Visual C++ 2015 UWP Desktop Runtime Package'</c>
+		<c>Microsoft.Wallet 'Wallet Service'</c>
+		<c>Microsoft.WebMediaExtensions 'Web Media Extensions'</c>
+		<c>Microsoft.WebpImageExtension 'Webp Image Extensions'</c>
+		<c>Microsoft.Win32WebViewHost 'Desktop App Web Viewer'</c>
+		<c>Microsoft.Windows.CallingShellApp 'Call'</c>
+		<c>Microsoft.Windows.CapturePicker 'Capture Picker'</c>
+		<c>Microsoft.Windows.ContentDeliveryManager 'Content Delivery Manager'</c>
+		<c>Microsoft.Windows.NarratorQuickStart 'Narrator'</c>
+		<c>Microsoft.Windows.OOBENetworkCaptivePortal 'Captive Portal Flow'</c>
+		<c>Microsoft.Windows.OOBENetworkConnectionFlow 'Network Connection Flow'</c>
+		<c>Microsoft.Windows.ParentalControls 'Microsoft family features'</c>
+		<c>Microsoft.Windows.PeopleExperienceHost 'Windows Shell Experience'</c>
+		<c>Microsoft.Windows.Photos 'Microsoft Photos'</c>
+		<c>Microsoft.Windows.PinningConfirmationDialog 'PinningConfirmationDialog'</c>
+		<c>Microsoft.Windows.SecHealthUI 'Windows Defender'</c>
+		<c>Microsoft.Windows.XGpuEjectDialog 'Safely Remove Device'</c>
+		<c>Microsoft.WindowsAlarms 'Windows Alarms &amp; Clock'</c>
+		<c>Microsoft.WindowsCalculator 'Windows Calculator'</c>
+		<c>Microsoft.WindowsCamera 'Windows Camera'</c>
+		<c>microsoft.windowscommunicationsapps 'Windows Mail'</c>
+		<c>Microsoft.WindowsFeedbackHub 'Feedback Hub'</c>
+		<c>Microsoft.WindowsMaps 'Windows Maps'</c>
+		<c>Microsoft.WindowsSoundRecorder 'Windows Voice Recorder'</c>
+		<c>Microsoft.WindowsStore 'Windows Store'</c>
+		<c>Microsoft.Xbox.TCUI 'Xbox TCUI'</c>
+		<c>Microsoft.XboxApp 'Xbox'</c>
+		<c>Microsoft.XboxGameCallableUI 'Xbox Game UI'</c>
+		<c>Microsoft.XboxGameOverlay 'Xbox Game Bar Plugin'</c>
+		<c>Microsoft.XboxGamingOverlay 'Xbox Game Bar'</c>
+		<c>Microsoft.XboxIdentityProvider 'Xbox Identity Provider'</c>
+		<c>Microsoft.XboxSpeechToTextOverlay 'Xbox Game Speech Window'</c>
+		<c>Microsoft.YourPhone 'Your Phone'</c>
+		<c>Microsoft.ZuneMusic 'Groove Music'</c>
+		<c>Microsoft.ZuneVideo 'Movies &amp; TV'</c>
+		<c>mobilepc</c>
+		<c>mobilepc_location 'Location notifications'</c>
+		<c>mobilepc_networkprojection 'Network Projection'</c>
+		<c>mobilepc_sensors 'Sensors'</c>
+		<c>msmq 'Microsoft Message Queue (MSMQ)'</c>
+		<c>multipointconnector 'MultiPoint Connector'</c>
+		<c>NcsiUwpApp 'Network Connectivity Status Indicator (NCSI)'</c>
+		<c>otherthemes 'Windows Personalization themes'</c>
+		<c>peertopeer 'Peer Networking'</c>
+		<c>printtopdf 'Print to PDF'</c>
+		<c>rdc 'Remote Differential Compression (RDC)'</c>
+		<c>rdpclient32 'Remote Desktop Client - 32 bit'</c>
+		<c>rdpserver 'Remote Desktop Server'</c>
+		<c>remoteaccessservice 'Routing and Remote Access Service'</c>
+		<c>remoteactivex32 'Remote Desktop Services ActiveX Client - 32 bit'</c>
+		<c>remoteassistance 'Remote Assistance'</c>
+		<c>remotefx</c>
+		<c>remoteportredirector 'Remote Desktop Services Port Redirector'</c>
+		<c>rotationmanager 'Auto-Rotation Manager'</c>
+		<c>search 'Windows Search (Support)'</c>
+		<c>sharemediacpl 'Share Media Control Panel'</c>
+		<c>simpletcp 'Simple TCP/IP services'</c>
+		<c>smbdirect 'SMB Direct (RDMA)'</c>
+		<c>snippingtool 'Snipping Tool'</c>
+		<c>snmp 'Simple Network Management Protocol (SNMP)'</c>
+		<c>stici 'Still Image Class Installer'</c>
+		<c>systemrestore 'System Restore'</c>
+		<c>tabletpc 'Tablet PC'</c>
+		<c>telnetclient 'Telnet Client'</c>
+		<c>textprediction 'Text prediction'</c>
+		<c>tftpclient 'TFTP client'</c>
+		<c>uev 'User Experience Virtualization (UE-V)'</c>
+		<c>vpn 'Virtual Private Network (VPN) support'</c>
+		<c>wallpapers 'Wallpapers (Themes)'</c>
+		<c>webcamexperience 'Webcam Experience'</c>
+		<c>Windows.CBSPreview 'Windows Barcode Preview'</c>
+		<c>Windows.PrintDialog 'PrintDialog'</c>
+		<c>windowstogo 'Windows To Go'</c>
+		<c>winocr 'Windows TIFF IFilter (OCR)'</c>
+		<c>winsat 'Windows System Assessment Tool (WinSAT)'</c>
+		<c>winsxs 'Windows Component Store (WinSxS)'</c>
+	</RemoveComponents>
+	<Compatibility protectHidden="false">
+		<ComponentFeatures>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="no">Discord</Feature>
+			<Feature enabled="no">FileSharing</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="yes">ManualSetup</Feature>
+			<Feature enabled="no">OfficeSupport</Feature>
+			<Feature enabled="no">AppxSupport</Feature>
+			<Feature enabled="no">Netflix</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="no">NightLight</Feature>
+			<Feature enabled="no">NvidiaSetup</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="no">Printing</Feature>
+			<Feature enabled="no">Recommended-All</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="no">Scanning</Feature>
+			<Feature enabled="no">ServicingStack</Feature>
+			<Feature enabled="no">ShellSearchSupport</Feature>
+			<Feature enabled="no">Spotify</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="no">DefaultFonts</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="no">TeamViewer</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="no">USB</Feature>
+			<Feature enabled="no">VideoPlayback</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="no">VisualStudio</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="no">ActivationKMS</Feature>
+			<Feature enabled="no">Activation</Feature>
+			<Feature enabled="no">WindowsStore</Feature>
+			<Feature enabled="no">WindowsUpdate</Feature>
+			<Feature enabled="no">WLAN</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features></Features>
+	<Packages>
+		<File>C:\Program Files\NTLite\Updates\10.21H2.x64\windows10.0-kb5019420-x64_746a1f2f52d61b04b2974e222d5e677f669351c2.cab</File>
+		<File>C:\Program Files\NTLite\Updates\10.22H2.x64\windows10.0-kb5019420-x64_746a1f2f52d61b04b2974e222d5e677f669351c2.cab</File>
+		<File>C:\Program Files\NTLite\Updates\10.22H2.x64\windows10.0-kb5018410-x64_10cd6ef1410df754abafee3870f7c133b7f9e34d.msu</File>
+		<File>C:\Program Files\NTLite\Updates\10.21H2.x64\windows10.0-kb5017262-x64-ndp48_e542f896b1eeb55650f12ec7002848c0698de45d.msu</File>
+	</Packages>
+	<Commands>
+		<PostUpdates>
+			<!--<Command>cmd /c echo Example from [MOUNTDIR]\Windows &amp; pause</Command>-->
+			<!--<Command>dism /image:[MOUNTDIR] /get-intl</Command>-->
+		</PostUpdates>
+	</Commands>
+	<Drivers showHidden="false">
+		<File>C:\ProgramData\SteelSeries\GG\thirdParty\sshz_dtshpx\amd64\UWP\dtsapo4xhpxv2x64.inf</File>
+		<File>C:\Program Files\Tablet\ftdibus.inf</File>
+		<File>C:\Program Files\Tablet\ftdiport.inf</File>
+		<File>C:\ProgramData\Package Cache\F448105A3691680C38BDEF3754065E093A0BD330\Graphics_Xe_Plus\GSCAuxDriver.inf</File>
+		<File>C:\ProgramData\Package Cache\F448105A3691680C38BDEF3754065E093A0BD330\Graphics_Xe_Plus\gscheci.inf</File>
+		<File>C:\ProgramData\Package Cache\F448105A3691680C38BDEF3754065E093A0BD330\Graphics_Xe_Plus\memcntrl.inf</File>
+		<File>C:\ProgramData\Package Cache\F448105A3691680C38BDEF3754065E093A0BD330\Graphics_Gen9_Gen11\cui_dch.inf</File>
+		<File>C:\ProgramData\Package Cache\F448105A3691680C38BDEF3754065E093A0BD330\Graphics_Xe_Plus\cui_dch.inf</File>
+		<File>C:\ProgramData\Package Cache\F448105A3691680C38BDEF3754065E093A0BD330\Graphics_Gen9_Gen11\HdBusExt.inf</File>
+		<File>C:\ProgramData\Package Cache\F448105A3691680C38BDEF3754065E093A0BD330\Graphics_Xe_Plus\HdBusExt.inf</File>
+		<File>C:\ProgramData\Package Cache\F448105A3691680C38BDEF3754065E093A0BD330\Graphics_Gen9_Gen11\igcc_dch.inf</File>
+		<File>C:\ProgramData\Package Cache\F448105A3691680C38BDEF3754065E093A0BD330\Graphics_Xe_Plus\igcc_dch.inf</File>
+		<File>C:\ProgramData\Package Cache\F448105A3691680C38BDEF3754065E093A0BD330\Graphics_Gen9_Gen11\iigd_dch.inf</File>
+		<File>C:\ProgramData\Package Cache\F448105A3691680C38BDEF3754065E093A0BD330\Graphics_Xe_Plus\iigd_dch.inf</File>
+		<File>C:\ProgramData\Package Cache\F448105A3691680C38BDEF3754065E093A0BD330\Graphics_Xe_Plus\iigd_dch_d.inf</File>
+		<File>C:\ProgramData\Package Cache\F448105A3691680C38BDEF3754065E093A0BD330\Graphics_Xe_Plus\MiniCtaDriver\MiniCtaDriver.inf</File>
+		<File>C:\ProgramData\Package Cache\F448105A3691680C38BDEF3754065E093A0BD330\Graphics_Xe_Plus\MSHdaDac.inf</File>
+		<File>C:\ProgramData\Package Cache\F448105A3691680C38BDEF3754065E093A0BD330\Graphics_Gen9_Gen11\MSHdaDac.inf</File>
+		<File>C:\ProgramData\Intel\DSA\Logs\Service\oem4.inf</File>
+		<File>C:\ProgramData\Package Cache\F448105A3691680C38BDEF3754065E093A0BD330\Graphics_Xe_Plus\DisplayAudio\11.2\IntcDAud.inf</File>
+		<File>C:\ProgramData\Package Cache\F448105A3691680C38BDEF3754065E093A0BD330\Graphics_Gen9_Gen11\DisplayAudio\11.2\IntcDAud.inf</File>
+		<File>C:\ProgramData\Package Cache\F448105A3691680C38BDEF3754065E093A0BD330\Graphics_Gen9_Gen11\DisplayAudio\10.26\IntcDAud.inf</File>
+		<File>C:\ProgramData\Package Cache\F448105A3691680C38BDEF3754065E093A0BD330\Graphics_Gen9_Gen11\DisplayAudio\10.27\IntcDAud.inf</File>
+		<File>C:\ProgramData\Package Cache\F448105A3691680C38BDEF3754065E093A0BD330\Graphics_Gen9_Gen11\DisplayAudio\11.1\IntcDAud.inf</File>
+		<File>C:\Users\hafiz\AppData\Local\Temp\NLTmpMnt02\Windows\System32\spool\tools\Microsoft XPS Document Writer\prnms001.inf</File>
+		<File>C:\Users\hafiz\AppData\Local\Temp\NLTmpMnt02\Windows\System32\spool\tools\Microsoft Print To PDF\prnms009.inf</File>
+		<File>C:\Program Files\NVIDIA Corporation\Installer2\Display.Driver.{EFA6BB39-C35C-4EFF-AD6A-5C34E8D5367C}\nvamig.inf</File>
+		<File>C:\Program Files\NVIDIA Corporation\Installer2\Display.NVIRUSB.{4092D892-F1F1-4240-A0D1-2D6C1DD42305}\nvstusb.inf</File>
+		<File>C:\Program Files\NVIDIA Corporation\Installer2\HDAudio.Driver.{D057CA38-0246-4F73-8D58-338823A15550}\nvhda.inf</File>
+		<File>C:\Program Files\Tablet\slabvcp.inf</File>
+		<File>C:\ProgramData\SteelSeries\GG\thirdParty\sshz_dtshpx\amd64\UWP\dtshpxv2ext.inf</File>
+		<File>C:\Program Files\SteelSeries\GG\driver\Win10\amd64\ssdevfactory.inf</File>
+		<File>C:\Program Files\SteelSeries\GG\driver\Win7\amd64\ssdevfactory.inf</File>
+		<File>C:\ProgramData\SteelSeries\GG\thirdParty\sshz_dtshpx\amd64\UWP\wdma_usb_ext.inf</File>
+		<File>C:\ProgramData\SteelSeries\GG\thirdParty\sshz_dtshpx\amd64\win10\arctis_dtshpx.inf</File>
+		<File>C:\ProgramData\SteelSeries\GG\thirdParty\sshz_dtshpx\amd64\win78\arctis_dtshpx.inf</File>
+		<File>C:\Program Files\SteelSeries\GG\driver\Win10\amd64\msihid.inf</File>
+		<File>C:\Program Files\SteelSeries\GG\driver\Win8\amd64\msihid.inf</File>
+		<File>C:\Program Files\SteelSeries\GG\driver\Win7\amd64\msihid.inf</File>
+		<File>C:\Program Files\SteelSeries\GG\sonar\driver\apoDriverPackage\Sonar.Apo.inf</File>
+		<File>C:\Program Files\SteelSeries\GG\driver\Win7\amd64\ssbthid.inf</File>
+		<File>C:\Program Files\SteelSeries\GG\driver\Win10\amd64\ssbthid.inf</File>
+		<File>C:\ProgramData\SteelSeries\GG\thirdParty\sshz_dtshpx\amd64\win10\ssdtshpx.inf</File>
+		<File>C:\ProgramData\SteelSeries\GG\thirdParty\sshz_dtshpx\amd64\win78\ssdtshpx.inf</File>
+		<File>C:\Program Files\SteelSeries\GG\driver\Win10\amd64\sshid.inf</File>
+		<File>C:\Program Files\SteelSeries\GG\driver\Win7\amd64\sshid.inf</File>
+		<File>C:\Program Files\SteelSeries\GG\driver\Win8\amd64\sshid.inf</File>
+		<File>C:\Program Files\SteelSeries\GG\driver\Win10\amd64\sssmbus.inf</File>
+		<File>C:\Program Files\SteelSeries\GG\driver\Win7\amd64\sssmbus.inf</File>
+		<File>C:\Program Files\SteelSeries\GG\sonar\driver\vad\SteelSeries-Sonar-VAD-Extension.inf</File>
+		<File>C:\Program Files\SteelSeries\GG\sonar\driver\vad\SteelSeries-Sonar-VAD.inf</File>
+		<File>C:\Program Files\SteelSeries\GG\driver\Win7\amd64\ssps2.inf</File>
+		<File>C:\Program Files\SteelSeries\GG\driver\Win10\amd64\ssps2.inf</File>
+		<File>C:\Program Files\SteelSeries\GG\driver\Win8\amd64\ssps2.inf</File>
+		<File>C:\Program Files (x86)\Common Files\Steam\drivers\Windows10\x64\SteamStreamingMicrophone.inf</File>
+		<File>C:\Program Files (x86)\Common Files\Steam\drivers\Windows8.1\x64\SteamStreamingMicrophone.inf</File>
+		<File>C:\Program Files (x86)\Common Files\Steam\drivers\Windows8.1\x64\SteamStreamingSpeakers.inf</File>
+		<File>C:\Program Files (x86)\Common Files\Steam\drivers\Windows10\x64\SteamStreamingSpeakers.inf</File>
+		<File>C:\Program Files (x86)\Common Files\Steam\drivers\Windows10\x64\steamxbox.inf</File>
+		<File>C:\Program Files (x86)\Common Files\Steam\drivers\Windows10\x64\steamxboxndi.inf</File>
+		<File>C:\Program Files (x86)\Common Files\Steam\drivers\Windows10\x86\steamxboxndi.inf</File>
+		<File>C:\Program Files (x86)\VB\Voicemeeter\VBvmauxvaio64_2003.inf</File>
+		<File>C:\Program Files (x86)\VB\Voicemeeter\VBvmauxvaio64_vista.inf</File>
+		<File>C:\Program Files (x86)\VB\Voicemeeter\VBvmauxvaio64_win10.inf</File>
+		<File>C:\Program Files\VB\CABLEVMAUX\VBvmauxvaio64_win10.inf</File>
+		<File>C:\Program Files (x86)\VB\Voicemeeter\VBvmauxvaio64_win7.inf</File>
+		<File>C:\Program Files (x86)\VB\Voicemeeter\VBvmauxvaio_2003.inf</File>
+		<File>C:\Program Files (x86)\VB\Voicemeeter\VBvmauxvaio_vista.inf</File>
+		<File>C:\Program Files (x86)\VB\Voicemeeter\VBvmauxvaio_win10.inf</File>
+		<File>C:\Program Files (x86)\VB\Voicemeeter\VBvmauxvaio_win7.inf</File>
+		<File>C:\Program Files (x86)\VB\Voicemeeter\VBvmauxvaio_xp.inf</File>
+		<File>C:\Program Files (x86)\VB\Voicemeeter\VBvmvaio64_2003.inf</File>
+		<File>C:\Program Files (x86)\VB\Voicemeeter\VBvmvaio64_vista.inf</File>
+		<File>C:\Program Files\VB\CABLEVM\VBvmvaio64_win10.inf</File>
+		<File>C:\Program Files (x86)\VB\Voicemeeter\VBvmvaio64_win10.inf</File>
+		<File>C:\Program Files (x86)\VB\Voicemeeter\VBvmvaio64_win7.inf</File>
+		<File>C:\Program Files (x86)\VB\Voicemeeter\VBvmvaio_2003.inf</File>
+		<File>C:\Program Files (x86)\VB\Voicemeeter\VBvmvaio_vista.inf</File>
+		<File>C:\Program Files (x86)\VB\Voicemeeter\VBvmvaio_win10.inf</File>
+		<File>C:\Program Files (x86)\VB\Voicemeeter\VBvmvaio_win7.inf</File>
+		<File>C:\Program Files (x86)\VB\Voicemeeter\VBvmvaio_xp.inf</File>
+		<File>C:\Program Files\Tablet\wachidrouter_pro.inf</File>
+		<File>C:\Program Files\Tablet\wacmultitouch.inf</File>
+		<File>C:\Program Files\Tablet\wacpaper.inf</File>
+		<File>C:\Program Files\Tablet\android_winusb.inf</File>
+		<File>C:\Program Files\Tablet\wacomrouterfilter.inf</File>
+		<File>C:\Program Files\WindowsApps\Microsoft.GamingServices_6.69.19001.0_x64__8wekyb3d8bbwe\drivers\xvdd.inf</File>
+	</Drivers>
+	<Unattended mode="1">
+		<OEMSetupComplete>false</OEMSetupComplete>
+		<AnswerFileLocationPanther>false</AnswerFileLocationPanther>
+		<AnswerFileLocationBoot>true</AnswerFileLocationBoot>
+		<SaveBothArch>false</SaveBothArch>
+		<EditionPrompt>false</EditionPrompt>
+		<settings pass="oobeSystem">
+			<component name="Microsoft-Windows-International-Core">
+				<InputLocale>0409:00000409</InputLocale>
+				<SystemLocale>en-US</SystemLocale>
+				<UILanguage>en-US</UILanguage>
+				<UILanguageFallback>en-US</UILanguageFallback>
+				<UserLocale>en-US</UserLocale>
+			</component>
+			<component name="Microsoft-Windows-Shell-Setup">
+				<TimeZone>Eastern Standard Time</TimeZone>
+				<AutoLogon>
+					<Enabled>true</Enabled>
+					<LogonCount>9999999</LogonCount>
+					<Username>Hafizdkren</Username>
+					<Password>
+						<PlainText>false</PlainText>
+						<Value>SABpAGwAbQBhAG4ANAA0ADAAMwBQAGEAcwBzAHcAbwByAGQA</Value>
+					</Password>
+				</AutoLogon>
+				<OEMInformation>
+					<Manufacturer>Asus</Manufacturer>
+					<Model>Vivobook X456UR 6th Gen Intel i5</Model>
+				</OEMInformation>
+				<OOBE>
+					<HideEULAPage>true</HideEULAPage>
+					<HideLocalAccountScreen>true</HideLocalAccountScreen>
+					<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+					<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+					<NetworkLocation>Other</NetworkLocation>
+					<ProtectYourPC>3</ProtectYourPC>
+					<SkipMachineOOBE>true</SkipMachineOOBE>
+					<SkipUserOOBE>true</SkipUserOOBE>
+				</OOBE>
+				<UserAccounts>
+					<AdministratorPassword>
+						<PlainText>true</PlainText>
+						<Value></Value>
+					</AdministratorPassword>
+					<LocalAccounts>
+						<LocalAccount>
+							<DisplayName>User</DisplayName>
+							<Group>Administrators</Group>
+							<Name>Administrator</Name>
+							<Password>
+								<PlainText>true</PlainText>
+								<Value></Value>
+							</Password>
+						</LocalAccount>
+						<LocalAccount>
+							<DisplayName>Hilman Hazazi</DisplayName>
+							<Group>Administrators</Group>
+							<Name>Hafizdkren</Name>
+							<Password>
+								<PlainText>false</PlainText>
+								<Value>SABpAGwAbQBhAG4ANAA0ADAAMwBQAGEAcwBzAHcAbwByAGQA</Value>
+							</Password>
+						</LocalAccount>
+					</LocalAccounts>
+				</UserAccounts>
+			</component>
+		</settings>
+		<settings pass="specialize">
+			<component name="Microsoft-Windows-Deployment">
+				<RunSynchronous>
+					<RunSynchronousCommand>
+						<Order>2</Order>
+						<Path>net user Administrator /fullname:"User"</Path>
+						<WillReboot>Never</WillReboot>
+					</RunSynchronousCommand>
+					<RunSynchronousCommand>
+						<Order>1</Order>
+						<Path>net user Administrator /active:Yes</Path>
+						<WillReboot>Never</WillReboot>
+					</RunSynchronousCommand>
+				</RunSynchronous>
+			</component>
+			<component name="Microsoft-Windows-Shell-Setup">
+				<ComputerName>Hafizd-GamerOS</ComputerName>
+				<ProductKey>NTGBW-4QB9W-QG9TB-D78P9-JXCH2</ProductKey>
+				<RegisteredOrganization>5 Dimension</RegisteredOrganization>
+				<RegisteredOwner>Hilman Hazazi</RegisteredOwner>
+			</component>
+		</settings>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-International-Core-WinPE">
+				<InputLocale>0409:00000409</InputLocale>
+				<SystemLocale>en-US</SystemLocale>
+				<UILanguage>en-US</UILanguage>
+				<UILanguageFallback>en-US</UILanguageFallback>
+				<UserLocale>en-US</UserLocale>
+			</component>
+			<component name="Microsoft-Windows-Setup">
+				<Diagnostics>
+					<OptIn>false</OptIn>
+				</Diagnostics>
+				<DynamicUpdate>
+					<Enable>false</Enable>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<ImageInstall>
+					<OSImage>
+						<Compact>true</Compact>
+						<WillShowUI>OnError</WillShowUI>
+						<InstallFrom>
+							<MetaData>
+								<Key>/IMAGE/INDEX</Key>
+								<Value>1</Value>
+							</MetaData>
+						</InstallFrom>
+					</OSImage>
+				</ImageInstall>
+				<UserData>
+					<AcceptEula>true</AcceptEula>
+					<FullName>Hafizd-GamerOS</FullName>
+					<ProductKey>
+						<Key>NTGBW-4QB9W-QG9TB-D78P9-JXCH2</Key>
+						<WillShowUI>OnError</WillShowUI>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks>
+		<Settings>
+			<TweakGroup name="DesktopTweaks">
+				<Tweak name="Accent\AccentColorMenu">11823615</Tweak>
+				<Tweak name="Accent\StartColorMenu">11823615</Tweak>
+				<Tweak name="DWM\AccentColorInactive">11823615</Tweak>
+				<Tweak name="Explorer\NoPinningStoreToTaskbar">1</Tweak>
+				<Tweak name="Explorer\HideSCAMeetNow">1</Tweak>
+				<Tweak name="Feeds\ShellFeedsTaskbarViewMode">2</Tweak>
+				<Tweak name="Search\SearchboxTaskbarMode">0</Tweak>
+				<Tweak name="People\PeopleBand">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="PowerAndShutdown">
+				<Tweak name="FlyoutMenuSettings\ShowHibernateOption">0</Tweak>
+				<Tweak name="FlyoutMenuSettings\ShowLockOption">1</Tweak>
+				<Tweak name="FlyoutMenuSettings\ShowSleepOption">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Privacy">
+				<Tweak name="appointments\Value">Deny</Tweak>
+				<Tweak name="phoneCallHistory\Value">Deny</Tweak>
+				<Tweak name="contacts\Value">Deny</Tweak>
+				<Tweak name="appDiagnostics\Value">Deny</Tweak>
+				<Tweak name="documentsLibrary\Value">Deny</Tweak>
+				<Tweak name="email\Value">Deny</Tweak>
+				<Tweak name="chat\Value">Deny</Tweak>
+				<Tweak name="phoneCall\Value">Deny</Tweak>
+				<Tweak name="radios\Value">Deny</Tweak>
+				<Tweak name="LooselyCoupled\Value">Deny</Tweak>
+				<Tweak name="userDataTasks\Value">Deny</Tweak>
+				<Tweak name="userAccountInformation\Value">Deny</Tweak>
+				<Tweak name="videosLibrary\Value">Deny</Tweak>
+				<Tweak name="Client\OptInOrOutPreference">0</Tweak>
+				<Tweak name="System\AllowExperimentation">0</Tweak>
+				<Tweak name="System\AllowLocation">0</Tweak>
+				<Tweak name="DataCollection\AllowTelemetry">0</Tweak>
+				<Tweak name="CloudContent\DisableWindowsConsumerFeatures">1</Tweak>
+				<Tweak name="features\PaidWifi">1</Tweak>
+				<Tweak name="features\WiFiSenseOpen">1</Tweak>
+				<Tweak name="ContentDeliveryManager\SilentInstalledAppsEnabled">0</Tweak>
+				<Tweak name="System\AllowClipboardHistory">1</Tweak>
+				<Tweak name="AppCompat\DisableInventory">1</Tweak>
+				<Tweak name="TrainedDataStore\HarvestContacts">0</Tweak>
+				<Tweak name="InputPersonalization\RestrictImplicitTextCollection">1</Tweak>
+				<Tweak name="InputPersonalization\RestrictImplicitInkCollection">1</Tweak>
+				<Tweak name="Windows Search\AllowCortana">0</Tweak>
+				<Tweak name="Search\HistoryViewEnabled">0</Tweak>
+				<Tweak name="Search\DeviceHistoryEnabled">0</Tweak>
+				<Tweak name="Advanced\ShowCortanaButton">0</Tweak>
+				<Tweak name="System\DontDisplayLastUserName">0</Tweak>
+				<Tweak name="System\DontDisplayLockedUserId">1</Tweak>
+				<Tweak name="AppCompat\RequireIntegrityActivationAuthenticationLevel">0</Tweak>
+				<Tweak name="Rules\NumberOfSIUFInPeriod">0</Tweak>
+				<Tweak name="AdvertisingInfo\Enabled">0</Tweak>
+				<Tweak name="Privacy\TailoredExperiencesWithDiagnosticDataEnabled">0</Tweak>
+				<Tweak name="AppSettings\Skype-UserConsentAccepted">0</Tweak>
+				<Tweak name="User Profile\HttpAcceptLanguageOptOut">1</Tweak>
+				<Tweak name="System\EnableActivityFeed">0</Tweak>
+				<Tweak name="Advanced\Start_TrackProgs">0</Tweak>
+				<Tweak name="Advanced\Start_TrackDocs">0</Tweak>
+				<Tweak name="ContentDeliveryManager\SystemPaneSuggestionsEnabled">0</Tweak>
+				<Tweak name="InputPersonalization\AllowInputPersonalization">0</Tweak>
+				<Tweak name="Settings\AcceptedPrivacyPolicy">0</Tweak>
+				<Tweak name="ContentDeliveryManager\PreInstalledAppsEnabled">0</Tweak>
+				<Tweak name="ContentDeliveryManager\OemPreInstalledAppsEnabled">0</Tweak>
+				<Tweak name="AppCompat\DisablePCA">1</Tweak>
+				<Tweak name="Windows Search\AllowCloudSearch">0</Tweak>
+				<Tweak name="SystemIndex\EnableFindMyFiles">0</Tweak>
+				<Tweak name="Search\BingSearchEnabled">0</Tweak>
+				<Tweak name="TIPC\Enabled">0</Tweak>
+				<Tweak name="System\EnableCdp">0</Tweak>
+				<Tweak name="ContentDeliveryManager\SubscribedContent-338393Enabled">0</Tweak>
+				<Tweak name="ContentDeliveryManager\SubscribedContent-310093Enabled">0</Tweak>
+				<Tweak name="UserProfileEngagement\ScoobeSystemSettingEnabled">0</Tweak>
+				<Tweak name="AppHost\EnableWebContentEvaluation">0</Tweak>
+				<Tweak name="Settings\InsightsEnabled">0</Tweak>
+				<Tweak name="AnqpCache\OsuRegistrationStatus">0</Tweak>
+				<Tweak name="FlipAhead\FPEnabled">0</Tweak>
+				<Tweak name="MicrosoftEdge\PhishingFilter\Enabledv9">0</Tweak>
+				<Tweak name="Internet Explorer\PhishingFilter\Enabledv9">0</Tweak>
+				<Tweak name="Explorer\SmartScreenEnabled">Off</Tweak>
+				<Tweak name="CloudContent\DisableWindowsSpotlightFeatures">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="System">
+				<Tweak name="System\HideFastUserSwitching">0</Tweak>
+				<Tweak name="GameConfigStore\GameDVR_FSEBehavior">0</Tweak>
+				<Tweak name="GraphicsDrivers\HwSchMode">2</Tweak>
+				<Tweak name="OneDrive\DisableFileSyncNGSC">1</Tweak>
+				<Tweak name="Memory Management\PagingFiles1">0:\pagefile.sys 0 0</Tweak>
+				<Tweak name="Terminal Server\fDenyTSConnections">0</Tweak>
+				<Tweak name="Device\DevicePasswordLessBuildVersion">0</Tweak>
+				<Tweak name="StoragePolicy\01">1</Tweak>
+				<Tweak name="StoragePolicy\512">0</Tweak>
+				<Tweak name="StoragePolicy\256">1</Tweak>
+				<Tweak name="StoragePolicy\04">1</Tweak>
+				<Tweak name="StoragePolicy\2048">1</Tweak>
+				<Tweak name="UserGpuPreferences\DirectXUserGlobalSettings">VRROptimizeEnable=1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="WindowsDefender">
+				<Tweak name="State\AccountProtection_MicrosoftAccount_Disconnected">0</Tweak>
+				<Tweak name="Features\TamperProtection">0</Tweak>
+				<Tweak name="Windows Defender\DisableAntiSpyware">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="WindowsUpdate">
+				<Tweak name="DriverSearching\SearchOrderConfig">0</Tweak>
+				<Tweak name="Preferences\ModelDownloadAllowed">0</Tweak>
+				<Tweak name="DeliveryOptimization\DODownloadMode">0</Tweak>
+				<Tweak name="WindowsUpdate\DisableWUfBSafeguards">1</Tweak>
+				<Tweak name="7971f918-a847-4430-9279-4a52d1efe18d\RegisterWithAU">0</Tweak>
+				<Tweak name="WindowsUpdate\ExcludeWUDriversInQualityUpdate">1</Tweak>
+				<Tweak name="MRT\DontOfferThroughWUAU">1</Tweak>
+				<Tweak name="Settings\HideMCTLink">1</Tweak>
+			</TweakGroup>
+		</Settings>
+		<Services></Services>
+		<ExtraServices></ExtraServices>
+		<ScheduledTasks></ScheduledTasks>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveTrim</Task>
+			<Task>deledition_boot.wim_01_9_64</Task>
+			<Task>imageFormatWim</Task>
+			<Task>imageOptionsDontBackupPresetLog</Task>
+			<Task>imageOptionsCreateIso</Task>
+		</ImageTasks>
+		<AutoIsoFile>B:\hafiz\Downloads\Hafizdkren_GamerOS-Windows10.iso</AutoIsoFile>
+		<AutoIsoLabel>Windows10-GamerOS</AutoIsoLabel>
+		<AutoSplitSize>4000</AutoSplitSize>
+		<CleanHotfixedLeftovers>0</CleanHotfixedLeftovers>
+		<OptimizeAppX>false</OptimizeAppX>
+		<ReuseDriverCache>false</ReuseDriverCache>
+	</ApplyOptions>
+	<Execution>
+		<Remove></Remove>
+		<Change></Change>
+		<Add>
+			<Item type="Command">
+				<Path>powercfg</Path>
+				<Params>/hibernate off</Params>
+				<Index>0</Index>
+			</Item>
+			<Item type="File">
+				<Path>C:\Users\hafiz\Downloads\BetterDiscord-Windows.exe</Path>
+				<Params></Params>
+				<Index>1</Index>
+			</Item>
+			<Item type="File">
+				<Path>C:\Users\hafiz\Downloads\DiscordSetup.exe</Path>
+				<Params></Params>
+				<Index>2</Index>
+			</Item>
+			<Item type="File">
+				<Path>C:\Users\hafiz\Downloads\SteamSetup.exe</Path>
+				<Params></Params>
+				<Index>3</Index>
+			</Item>
+			<Item type="File">
+				<Path>C:\Users\hafiz\Downloads\OBS-Studio-28.0.3-Full-Installer-x64.exe</Path>
+				<Params></Params>
+				<Index>4</Index>
+			</Item>
+			<Item type="File">
+				<Path>C:\Users\hafiz\Downloads\Firefox Installer.exe</Path>
+				<Params></Params>
+				<Index>5</Index>
+			</Item>
+			<Item type="File">
+				<Path>C:\Users\hafiz\Downloads\EpicInstaller-14.2.1.msi</Path>
+				<Params>/passive</Params>
+				<Index>6</Index>
+			</Item>
+			<Item type="File">
+				<Path>C:\Users\hafiz\Downloads\ChromeSetup.exe</Path>
+				<Params></Params>
+				<Index>7</Index>
+			</Item>
+			<Item type="File">
+				<Path>C:\Users\hafiz\Downloads\ultradefrag-7.1.4.bin.amd64.exe</Path>
+				<Params></Params>
+				<Index>8</Index>
+			</Item>
+		</Add>
+	</Execution>
+	<Registry>
+		<File>B:\hafiz\Downloads\commandpromt_fileexplorer.reg</File>
+		<File>C:\Users\hafiz\Downloads\Add_Open_Command_Window_Here_to_Context_Menu.reg</File>
+		<File>C:\Users\hafiz\Downloads\Open_Command_Window_Here_Administrator_to_context_menu.reg</File>
+	</Registry>
+</Preset>
